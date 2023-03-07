@@ -1,0 +1,8 @@
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  name: lab-storage
+spec:
+  finalizers:
+  - kubernetes
+
