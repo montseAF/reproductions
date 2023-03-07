@@ -6,7 +6,7 @@ spec:
   capacity:
     storage: 1Gi
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   nfs:
     path: /public/finance
     server: upi-0.montse2.lab.upshift.rdu2.redhat.com
