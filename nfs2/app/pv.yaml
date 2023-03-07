@@ -1,0 +1,13 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: pv-finance
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  nfs:
+    path: /public/finance
+    server: upi-0.montse2.lab.upshift.rdu2.redhat.com
+  persistentVolumeReclaimPolicy: Recycle 
