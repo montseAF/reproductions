@@ -11,7 +11,7 @@ spec:
   source:
     directory:
       recurse: true
-    path: nfs2/app
+    path: nfs2
     repoURL: https://github.com/montseAF/reproductions.git
     targetRevision: main
   syncPolicy:
