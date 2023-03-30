@@ -9,5 +9,5 @@ spec:
     - ReadWriteMany
   nfs:
     path: /public/finance
-    server: upi-0.montse2.lab.upshift.rdu2.redhat.com
+    server: upi-0.montse1.lab.psi.pnq2.redhat.com
   persistentVolumeReclaimPolicy: Recycle 

@@ -1,0 +1,10 @@
+apiVersion: v1
+imagePullSecrets:
+- name: apache-sa-dockercfg-wvlkq
+kind: ServiceAccount
+metadata:
+  name: apache-sa
+  namespace: lab-storage
+secrets:
+- name: apache-sa-token-pg6zf
+- name: apache-sa-dockercfg-wvlkq

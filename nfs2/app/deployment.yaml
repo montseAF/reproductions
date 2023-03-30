@@ -15,12 +15,12 @@ spec:
     spec:
       containers:
       - name: httpd-24-rhel7
-        image: registry.access.redhat.com/rhscl/httpd-24-rhel7:latest
+        image: registry.access.redhat.com/ubi8/httpd-24:latest
         ports:
         - containerPort: 80
         volumeMounts:
             - name: apache-root-dir
-              mountPath: /var/www
+              mountPath: /var/www/html
       volumes:
       - name: apache-root-dir
         persistentVolumeClaim:
